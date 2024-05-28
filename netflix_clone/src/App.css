@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+
+.App {
+  background-color: black;
+  color: white;
+}
+
+.back {
+  background-image: url("https://dkr0pu7ej5xex.cloudfront.net/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg");
+  height: 100vh;
+}
+
+.overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: block; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  /* Add a pointer on hover */
+}
+
+.align {
+  position: absolute;
+  top: 30%;
+  left: 38%;
+  margin-top: -10px;
+  margin-left: -50px;
+}
+.h1 {
+  font-size: 45px;
+  margin-top: -10px;
+  font-weight: bold;
+}
+.p {
+  font-size: 30px;
+}

@@ -1,0 +1,24 @@
+.net img {
+  position: fixed;
+  width: 140px;
+  align-items: center;
+}
+
+.net button {
+  position: fixed;
+  width: 140px;
+  align-items: center;
+}
+
+.img {
+  background-color: black;
+  width: 2000px;
+  height: 50px;
+  margin-top: 0;
+  position: fixed;
+}
+
+.net {
+  display: flex;
+  justify-content: space-between;
+}

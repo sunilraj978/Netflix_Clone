@@ -1,0 +1,15 @@
+.row {
+  display: flex;
+  margin-right: 10px;
+  overflow-y: hidden;
+  padding: 20px;
+}
+
+.rows:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+}
+
+.row::-webkit-scrollbar {
+  display: none;
+}
